@@ -28,6 +28,73 @@ header.l-header
     #nav-toggle.nav__toggle
       i.bx.bx-menu
 main.l-main
+  // ===== HOME =====
+  section#home.home.bd-grid
+    .home__data
+      h1.home__title
+        | Hi 👋
+        br
+        | I am 
+        span.home__title-color Sophie
+        br
+        |  Software Engineer
+      a.button(href='#') Contact
+    .home__social
+      a.home__social-icon(href='https://www.linkedin.com/in/sophie-brown-7a1b2586/')
+        i.bx.bxl-linkedin
+      a.home__social-icon(href='https://github.com/sofyloafy')
+        i.bx.bxl-github
+    .home__img
+      img(src='assets/img/perfil.png' alt='')
+
+  // ===== ABOUT =====
+section#about.about.section
+  h2.section-title About
+  .about__container.bd-grid
+    .about__img
+      img(src='assets/img/about.jpg' alt='')
+    div
+      h2.about__subtitle I am Sophie!
+      p.about__text
+        | Lorem, ipsum dolor
+  // ===== SKILLS =====
+  section#skills.skills.section
+    h2.section-title Skills
+    .skills__container.bd-grid
+      div
+        h2.skills__subtitle Professional Skills
+        p.skills__text
+          | Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.
+        .skills__data
+          .skills__names
+            i.bx.bxl-html5.skills__icon
+            span.skills__name HTML5
+          .skills__bar.skills__html
+          div
+            span.skills__percentage 95%
+        .skills__data
+          .skills__names
+            i.bx.bxl-css3.skills__icon
+            span.skills__name CSS3
+          .skills__bar.skills__css
+          div
+            span.skills__percentage 85%
+        .skills__data
+          .skills__names
+            i.bx.bxl-javascript.skills__icon
+            span.skills__name JAVASCRIPT
+          .skills__bar.skills__js
+          div
+            span.skills__percentage 65%
+        .skills__data
+          .skills__names
+            i.bx.bxs-paint.skills__icon
+            span.skills__name UX/UI
+          .skills__bar.skills__ux
+          div
+            span.skills__percentage 85%
+      div
+        img.skills__img(src='assets/img/work3.jpg' alt='')
 // ===== SCROLL REVEAL =====
 script(src='https://unpkg.com/scrollreveal')
 
