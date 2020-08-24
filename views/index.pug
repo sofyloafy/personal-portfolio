@@ -45,14 +45,14 @@ main.l-main
       a.home__social-icon(href='https://github.com/sofyloafy')
         i.bx.bxl-github
     .home__img
-      img(src='assets/img/perfil.png' alt='')
+      //- img(src='assets/img/perfil.png' alt='')
 
   // ===== ABOUT =====
 section#about.about.section
   h2.section-title About
   .about__container.bd-grid
     .about__img
-      img(src='assets/img/about.jpg' alt='')
+      //- img(src='assets/img/about.jpg' alt='')
     div
       h2.about__subtitle I am Sophie!
       p.about__text
@@ -94,8 +94,37 @@ section#about.about.section
           div
             span.skills__percentage 85%
       div
-        img.skills__img(src='assets/img/work3.jpg' alt='')
+        //- img.skills__img(src='assets/img/work3.jpg' alt='')
+  //- // ===== WORK =====
+  //- section#work.work.section
+  //-   h2.section-title Work
+  //-   .work__container.bd-grid
+  //-     .work__img
+  //-       img(src='assets/img/work1.jpg' alt='')
+  //-     .work__img
+  //-       img(src='assets/img/work2.jpg' alt='')
+  //-     .work__img
+  //-       img(src='assets/img/work3.jpg' alt='')
+  //-     .work__img
+  //-       img(src='assets/img/work4.jpg' alt='')
+  //-     .work__img
+  //-       img(src='assets/img/work5.jpg' alt='')
+  //-     .work__img
+  //-       img(src='assets/img/work6.jpg' alt='')
+   // ===== CONTACT =====
+  section#contact.contact.section
+    h2.section-title Contact
+    .contact__container.bd-grid
+      form.contact__form(action='')
+        input.contact__input(type='text' placeholder='Name')
+        input.contact__input(type='mail' placeholder='Email')
+        textarea.contact__input(name='' id='' cols='0' rows='10')
+        input.contact__button.button(type='button' value='Send')
+  // ===== FOOTER =====
+  footer.footer
+    p.footer__title Sophie
+    p &copy; 2020 copyright all right reserved
 // ===== SCROLL REVEAL =====
 script(src='https://unpkg.com/scrollreveal')
 
-//- script(src='assets/main.js')
+script(src='assets/main.js')
