@@ -212,12 +212,17 @@ img{
 .home__social-icon:hover{
   color: var(--first-color);
 }
-.home__img{
+.home__img {
   position: absolute;
   right: 0;
   bottom: 0;
   width: 295px;
 }
+.home__img img {
+  border-radius: .5rem;
+
+}
+
 
 /* ===== BUTTONS =====*/
 .button{
