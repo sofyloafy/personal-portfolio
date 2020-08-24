@@ -1,5 +1,31 @@
-extends layout
-
+doctype html
 block content
   h1= title
   p Welcome to #{title}
+  // =====BOX ICONS=====
+  link(href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet')
+  title Portfolio website complete
+
+  header.l-header
+  nav.nav.bd-grid
+    div
+      a.nav__logo(href='#') Sophie
+    #nav-menu.nav__menu
+      ul.nav__list
+        li.nav__item
+          a.nav__link.active(href='#home') Home
+        li.nav__item
+          a.nav__link(href='#about') About
+        li.nav__item
+          a.nav__link(href='#skills') Skills
+        li.nav__item
+          a.nav__link(href='#work') Work
+        li.nav__item
+          a.nav__link(href='#contact') Contact
+    #nav-toggle.nav__toggle
+      i.bx.bx-menu
+main.l-main
+// ===== SCROLL REVEAL =====
+script(src='https://unpkg.com/scrollreveal')
+
+script(src='assets/main.js')
