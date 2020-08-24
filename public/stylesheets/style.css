@@ -6,13 +6,13 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colours =====*/
 :root{
   --first-color: rgb(98, 103, 116);
   --second-color: rgb(148, 161, 168);
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Font etc =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -27,7 +27,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -219,7 +219,7 @@ img{
   width: 295px;
 }
 
-/*BUTTONS*/
+/* ===== BUTTONS =====*/
 .button{
   display: inline-block;
   background-color: var(--first-color);
