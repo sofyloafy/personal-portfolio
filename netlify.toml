@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "./views/index.pug"
+  to = "/index.pug"
   status = 200
